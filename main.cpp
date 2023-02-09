@@ -7,10 +7,11 @@
 #include "table.h"*/
 #include "rational.h"
 
+
 int main()
 {
    rational r1(2, 4);
    rational r2(1, 2);
-   std::cout << r1 + r2;// ������� ������������ reduce() ������ ����������
+   std::cout << r1 + r2;
    return 0;
 }
